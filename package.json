@@ -1,0 +1,19 @@
+{
+  "name": "autopilot-scalper-bot",
+  "version": "1.0.0",
+  "description": "24/7 Solana meme coin scalper bot",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js",
+    "paper": "PAPER_MODE=true node bot.js",
+    "live": "PAPER_MODE=false node bot.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
